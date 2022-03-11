@@ -1,0 +1,287 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .footer_cont i svg {
+        width: 100%;
+    }
+    .hero_img img{
+        width: 100%;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero_cont h1{
+    font-size: 40px;
+}
+.email a{
+    font-size: 20px;
+    width: 237px;
+}
+
+.email {
+    padding: 0 250px 0px 26px;
+}
+
+.email input {
+    font-size: 18px;
+}
+    .footer_cont i svg {
+        width: 100%;
+        height: 300px;
+    }
+    .hero_img img{
+        width: 100%;
+    }
+    .ice_cream_form {
+        right: 20px;
+        width: 450px;
+    }
+    .ice_cont {
+        max-width: 419px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero_cont h1{
+        font-size: 32px;
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .email a{
+        font-size: 20px;
+        width: 237px;
+    }
+    
+    .email {
+        padding: 0 250px 0px 26px;
+    }
+    
+    .email input {
+        font-size: 18px;
+    }
+        .footer_cont i svg {
+            width: 100%;
+            height: 300px;
+        }
+        .hero_img img{
+        max-width: 314px;
+        margin-top: 0;
+        }
+        .ice_cream_form {
+            right: 0;
+            width: 382px;
+            padding: 30px;
+            height: auto !important;
+            top: -34%;
+        }
+        .ice_cont {
+            max-width: 334px;
+        }
+
+.ice_cont h2 {
+    font-size: 28px;
+}
+        .sgl_blg img {
+            width: 100%;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .hero_cont {
+            text-align: center;
+            width: max-content;
+            margin: auto;
+        }
+        section.hero_area .row {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        
+        .hero_img {
+            text-align: center;
+        }
+        
+        section.hero_area {
+            background-size: contain;
+        }
+        
+        section.blog_area {
+            margin-bottom: 100px;
+        }
+        .ice_cream_form input {
+            height: 35px;
+        }
+        
+        .ice_cream_form label {
+            margin-bottom: 30px;
+        }
+        
+        .thm_btn {
+            height: 50px;
+            width: 200px;
+            margin-top: 0;
+        }
+        footer.footer_area:before{
+    height: 120px;
+}
+.footer_cont p{
+    margin-top: -60px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    li.three a{
+        margin: 0;
+    }
+    ul#nav {
+        margin: auto;
+    }
+    .header-area hr {
+        height: 10px;
+        transform: translateY(12px);
+    }
+
+.three:hover ~ hr {
+    margin-left: 79%;
+}
+
+.two:hover ~ hr {
+    margin-left: 35%;
+}
+    .hero_cont h1{
+        font-size: 22px;
+        max-width: 295px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .email a{
+        font-size: 20px;
+        width: 237px;
+        top: auto;
+        right: auto;
+        left: 25%;
+        bottom: -91px;
+        position: unset;
+        margin: auto;
+        transform: unset;
+        margin-top: 20px;
+    }
+    
+    .email {
+        padding: 0 31px 0px 26px;
+        max-width: 400px;
+        width: 100%;
+        overflow: unset;
+        margin: auto;
+        height: 50px;
+        position: unset;
+    }
+    
+    .email input {
+        font-size: 16px;
+    }
+        .footer_cont i svg {
+            width: 100%;
+            height: 300px;
+        }
+        .hero_img img{
+        max-width: 260px;
+        margin-top: 0;
+        }
+        .ice_cream_form {
+            right: 13px;
+            width: 100%;
+            padding: 30px;
+            height: auto !important;
+            top: -6%;
+            position: unset;
+            margin: auto;
+            max-width: 350px;
+        }
+        .ice_cont {
+            max-width: 334px;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+.ice_cont h2 {
+    font-size: 28px;
+}
+        .sgl_blg img {
+            width: 100%;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .hero_cont {
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+        section.hero_area .row {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        
+        .hero_img {
+            text-align: center;
+        }
+        
+        section.hero_area {
+            background-size: contain;
+            margin-bottom: 130px;
+        }
+        .sgl_blg {
+            margin: auto;
+            margin-bottom: 50px;
+            max-width: 350px;
+        }
+        section.blog_area {
+            margin-bottom: 10px;
+        }
+        .ice_cream_form input {
+            height: 35px;
+        }
+        
+        .ice_cream_form label {
+            margin-bottom: 30px;
+        }
+
+.ice_cream_form label br {
+    display: none;
+}
+        
+        .thm_btn {
+            height: 50px;
+            width: 200px;
+            margin-top: 0;
+        }
+        footer.footer_area:before{
+    height: 120px;
+}
+.footer_cont p{
+    margin-top: -110px;
+    text-align: center;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
